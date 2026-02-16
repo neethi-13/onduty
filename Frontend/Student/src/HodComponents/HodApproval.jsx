@@ -9,10 +9,7 @@ function HodApproval() {
   const [deptStudents, setDeptStudents] = useState([]);
   const [odList, setOdList] = useState([]);
 
-  useEffect(() => {
-    fetchData();
-  }, []);
-
+ 
   const fetchData = async () => {
     try {
 
@@ -37,6 +34,9 @@ function HodApproval() {
     }
   };
 
+ useEffect(() => {
+  fetchData();
+}, []);
   // 🔹 Mentor Approval
   const handleMentorApprove = async (od) => {
 

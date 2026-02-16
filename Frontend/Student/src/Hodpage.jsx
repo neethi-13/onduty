@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import HodNavbar from "./hodComponents/HodNavbar";
-import HodProfile from "./hodComponents/HodProfile";
-import HodApproval from "./hodComponents/HodApproval";
+import HodNavbar from "./HodComponents/HodNavbar";
+import HodProfile from "./HodComponents/HodProfile";
+import HodApproval from "./HodComponents/HodApproval";
 
 function Hodpage() {
 
