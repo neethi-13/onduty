@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.LogContainer {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman", serif;
+}
+
+/* Navbar */
+.LogNavbar {
+    background: #0f2027;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.LogNavTitle {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+/* Card */
+.LogCard {
+    width: 380px;
+    margin: auto;
+    padding: 40px;
+    background: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.LogTitle {
+    margin-bottom: 25px;
+    color: #2a5298;
+}
+
+/* Form */
+.LogForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.LogInput {
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.LogInput:focus {
+    outline: none;
+    border-color: #2a5298;
+    box-shadow: 0 0 6px rgba(42,82,152,0.6);
+}
+
+.LogButton {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #2a5298;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.LogButton:hover {
+    background: #1e3c72;
+}
+
+.LogMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
